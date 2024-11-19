@@ -19,10 +19,10 @@ class Oval(QWidget):
             d = randint(10, 200)
             x = randint(0, self.width() - d)
             y = randint(0, self.height() - d)
-            col1 = randint(0, 255)
-            col2 = randint(0, 255)
-
-            painter.setPen(QColor(col1, col2, 0))
+            # col1 = randint(0, 255)
+            # col2 = randint(0, 255)
+            # col3 = randint(0, 255)
+            painter.setPen(QColor(255, 255, 0))
             painter.drawEllipse(x, y, d, d)
 
 
